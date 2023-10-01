@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Autograding",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
