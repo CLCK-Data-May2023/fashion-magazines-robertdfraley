@@ -7,4 +7,3 @@ INNER JOIN subscriptions s
 WHERE s.description = 'Fashion Magazine'
 AND o.order_status = 'unpaid'
 GROUP BY c.customer_name; 
-
